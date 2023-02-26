@@ -8,7 +8,7 @@ import { store } from "./store";
 import { Provider } from "react-redux";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4006/graphql",
+  uri: "https://easybank-server.onrender.com/graphql",
   cache: new InMemoryCache(),
 });
 
